@@ -9,10 +9,5 @@ a JCLPCB project
 run the ```initialize.sh``` script which does the following:
 
   - Renaming the project files from KiCad
-
-## ToDos
-
-- integrate setup script for a new electronics project which provides
   - Add the template repository as another upstream
-  - Renaming and basic description
   - Updating this ReadMe

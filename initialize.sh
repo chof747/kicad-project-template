@@ -15,3 +15,5 @@ mv template-project.kicad_sch $REPONAME.kicad_sch
 #git add the template as a remote to get updates if needed
 git remote add template https://github.com/chof747/kicad-project-template
 
+#setup a basic README.md
+echo "## $REPONAME\n" > README.md
