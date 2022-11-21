@@ -12,4 +12,6 @@ mv template-project.kicad_prl $REPONAME.kicad_prl
 mv template-project.kicad_pro $REPONAME.kicad_pro
 mv template-project.kicad_sch $REPONAME.kicad_sch
 
+#git add the template as a remote to get updates if needed
+git remote add template https://github.com/chof747/kicad-project-template
 
