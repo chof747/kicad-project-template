@@ -17,3 +17,16 @@ git remote add template https://github.com/chof747/kicad-project-template
 
 #setup a basic README.md
 echo "## $REPONAME\n" > README.md
+
+#prepare the git commit
+git add $REPONAME.kicad_pcb
+git add $REPONAME.kicad_prl
+git add $REPONAME.kicad_pro
+git add $REPONAME.kicad_sch
+
+git rm template-project.kicad_pcb
+git rm template-project.kicad_prl
+git rm template-project.kicad_pro
+git rm template-project.kicad_sch
+
+git add README.md
