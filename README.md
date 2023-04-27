@@ -2,7 +2,9 @@
 Template for a KiCad Project 
 
 This project provides an empty KiCad project with all the settings for 
-a JCLPCB project
+a JCLPCB project.
+
+The project template is setup for KiCad 7.x
 
 ## Setup 
 
