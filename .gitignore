@@ -10,6 +10,7 @@ jlcpcb/gerber
 jlcpcb/assembly
 jlcpcb/*.zip
 production/
+resources/
 
 
 #Step files of platine
