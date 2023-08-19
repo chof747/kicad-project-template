@@ -12,6 +12,10 @@ mv template-project.kicad_prl $REPONAME.kicad_prl
 mv template-project.kicad_pro $REPONAME.kicad_pro
 mv template-project.kicad_sch $REPONAME.kicad_sch
 
+#create a resource directory (which will be ignored for version control) to 
+#be able to store data sheets, reading material ...
+mkdir resources
+
 #git add the template as a remote to get updates if needed
 git remote add template https://github.com/chof747/kicad-project-template
 
